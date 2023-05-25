@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import '_reset.scss';
+
+$dark: #3F3B3D;
+$orange: #F14814;
+$white: #FFFFFF;
+
+@mixin bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 133%;
+    font-weight: 400;
+    color: $dark;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
