@@ -7,6 +7,7 @@ import { ShopComponent } from './shop/shop.component';
 import { DescriptionComponent } from './description/description.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { GoodsComponent } from './goods/goods.component';
+import { ChoiceComponent } from './choice/choice.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { GoodsComponent } from './goods/goods.component';
     ShopComponent,
     DescriptionComponent,
     AdvantagesComponent,
-    GoodsComponent
+    GoodsComponent,
+    ChoiceComponent
   ],
   imports: [
     BrowserModule
