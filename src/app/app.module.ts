@@ -9,6 +9,8 @@ import { AdvantagesComponent } from './advantages/advantages.component';
 import { GoodsComponent } from './goods/goods.component';
 import { ChoiceComponent } from './choice/choice.component';
 import { StoryComponent } from './story/story.component';
+import { JournalComponent } from './journal/journal.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { StoryComponent } from './story/story.component';
     AdvantagesComponent,
     GoodsComponent,
     ChoiceComponent,
-    StoryComponent
+    StoryComponent,
+    JournalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
