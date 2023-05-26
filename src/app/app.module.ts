@@ -8,6 +8,7 @@ import { DescriptionComponent } from './description/description.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { GoodsComponent } from './goods/goods.component';
 import { ChoiceComponent } from './choice/choice.component';
+import { StoryComponent } from './story/story.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ChoiceComponent } from './choice/choice.component';
     DescriptionComponent,
     AdvantagesComponent,
     GoodsComponent,
-    ChoiceComponent
+    ChoiceComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule
